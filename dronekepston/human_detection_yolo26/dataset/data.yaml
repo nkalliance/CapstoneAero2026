@@ -1,0 +1,7 @@
+# Path train/val/test relatif terhadap lokasi file ini (bawaan Roboflow "../train" sudah diperbaiki)
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 1
+names: ['Person']
